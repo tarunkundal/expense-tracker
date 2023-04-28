@@ -1,0 +1,65 @@
+.new-expense-form{
+height: 28vh;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.new-expense-form-input{
+    margin-left: 2rem;
+}
+.new-expense-form-input label{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.new-expense-form-input input{
+    width:30rem;
+    height: 2rem;
+   border-radius: 5px;
+   border: none;
+   font-weight: 500;
+   font-size: 18px;
+   padding-left: 1rem;
+}
+.new-expense-add-btn{
+   text-align: right;
+   width: 90%;
+}
+.new-expense-add-btn button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+    border: none;
+box-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+.new-expense-add-btn button:hover{
+  border:1px solid rgb(3, 129, 255);
+    width: 7.5rem;
+    font-size: 12px;
+}
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .new-expense-form-input input{
+        width: 25rem;
+        height: 2rem;
+    }
+    .new-expense-form{
+       display: flex;
+       justify-content: center;
+    }
+    .new-expense-form-input{
+        margin: 0;
+    }
+    .new-expense-add-btn{
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+   
+
+}

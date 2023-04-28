@@ -1,0 +1,18 @@
+.new-expense{
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(102, 160, 213);
+}
+
+@media (min-width:320px) and (max-width:768px){
+    .new-expense{
+        width: 90%;
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,17 @@
+.expense-data-container{
+    background-color: rgb(29, 29, 29);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 1px 8px rgb(79, 79, 79);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .expense-data-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
